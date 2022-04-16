@@ -1,3 +1,44 @@
+/*VARIAVEIS*/
+:root {
+    --vermelho: #E50914;
+    --preta: #141414;
+
+}
+
+/*RESET DO CSS (NAVEGADORES TEM INTERPRETAÇÕES DIFERENTES, ASSIM FICA TUDO COMUM EM TODOS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*NAO ULTRAPASSA A BORDA DEFINIDA*/
+}
+
 body {
-    
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*AJUSTES DO MENU DE CIMA*/
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 10px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+/*QUANDO O MOUSE PASSA EM CIMA TROCA DE COR*/
+header nav a:hover {
+    color: #fff;
 }
