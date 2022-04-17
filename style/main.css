@@ -69,6 +69,29 @@ main .container {
     text-align: justify;
 }
 
-.titulo-filme-principal {
+.filme-principal .titulo-filme-principal {
     font-size: 40px;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, .50);
+    color: #AAA;
+    border: none;
+    border-radius: 15px;
+
+    cursor: pointer;
+
+    padding: 15px 30px;
+    margin-right: 12px;
+
+    transition: .4s ease all;
+}
+
+.botao:hover {
+    color: black;
+    background-color: white;
+}
+
+.botao i{
+    margin-right: 9px;
 }
