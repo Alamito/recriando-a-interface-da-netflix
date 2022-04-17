@@ -14,7 +14,8 @@
 
 body {
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Geneva', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
 }
 
 /*AJUSTES DO MENU DE CIMA*/
@@ -41,4 +42,33 @@ header nav a {
 /*QUANDO O MOUSE PASSA EM CIMA TROCA DE COR*/
 header nav a:hover {
     color: #fff;
+}
+
+/*FILME PRINCIPAL*/
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0, 0, 0, 0.5)100%), url('/img/whiplash-fundo.jpg'); /*A IMAGEM FICA COM UMA VINHETA*/
+
+    height: 400px;
+    background-size: cover; /*IMAGEM FICA COM O TAMANHO DO ESPACO OCUPADO PELA CLASSE*/
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main .container {
+    margin-left: 10px;
+}
+
+.filme-principal .descricao-filme-principal {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 70%;
+    text-align: justify;
+}
+
+.titulo-filme-principal {
+    font-size: 40px;
 }
