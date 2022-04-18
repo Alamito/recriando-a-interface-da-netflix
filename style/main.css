@@ -60,13 +60,13 @@ header nav a:hover {
 
 main .container {
     margin-left: 10px;
+    width: 70%;
+    text-align: justify;
 }
 
 .filme-principal .descricao-filme-principal {
     margin-top: 10px;
     margin-bottom: 40px;
-    width: 70%;
-    text-align: justify;
 }
 
 .filme-principal .titulo-filme-principal {
@@ -94,4 +94,14 @@ main .container {
 
 .botao i{
     margin-right: 9px;
+}
+
+.carrosel-filmes {
+    margin-top: 10px;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
